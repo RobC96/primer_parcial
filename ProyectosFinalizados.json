@@ -1,0 +1,209 @@
+[
+    {
+        "id": 3,
+        "nombre": "Sistema de Información Epidemiológica",
+        "descripcion": "Plataforma para el seguimiento y análisis de datos epidemiológicos",
+        "fecha_inicio": "14-06-2023",
+        "fecha_fin": "02-02-2024",
+        "presupuesto": 850312588,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 5,
+        "nombre": "Royal Guard Tales",
+        "descripcion": "La mejor obra de ficción jamas creada.",
+        "fecha_inicio": "06-06-2021",
+        "fecha_fin": "03-02-2030",
+        "presupuesto": 149912234,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 8,
+        "nombre": "Sistema de Gestión de Documentos",
+        "descripcion": "Desarrollo de un sistema para la gestión y archivo de documentos",
+        "fecha_inicio": "06-09-2023",
+        "fecha_fin": "19-05-2023",
+        "presupuesto": 65296214,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 12,
+        "nombre": "Sistema de Gestión Financiera",
+        "descripcion": "Implementación de un sistema financiero avanzado",
+        "fecha_inicio": "18-08-2023",
+        "fecha_fin": "09-07-2024",
+        "presupuesto": 764423509,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 15,
+        "nombre": "Automatización Industrial",
+        "descripcion": "Implementación de sistemas de automatización en fábricas",
+        "fecha_inicio": "19-05-2023",
+        "fecha_fin": "30-04-2024",
+        "presupuesto": 982173102,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 17,
+        "nombre": "Investigación Biomédica",
+        "descripcion": "Estudios y desarrollo en el campo biomédico",
+        "fecha_inicio": "11-11-2023",
+        "fecha_fin": "09-08-2025",
+        "presupuesto": 741120834,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 19,
+        "nombre": "Seguridad Cibernética",
+        "descripcion": "Desarrollo de sistemas avanzados de seguridad informática",
+        "fecha_inicio": "07-01-2023",
+        "fecha_fin": "22-10-2023",
+        "presupuesto": 839417534,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 21,
+        "nombre": "Transporte Sustentable",
+        "descripcion": "Desarrollo de un sistema de transporte ecológico",
+        "fecha_inicio": "03-07-2023",
+        "fecha_fin": "17-12-2024",
+        "presupuesto": 528900751,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 24,
+        "nombre": "Red de Internet Rural",
+        "descripcion": "Implementación de internet en zonas rurales",
+        "fecha_inicio": "10-02-2023",
+        "fecha_fin": "21-06-2023",
+        "presupuesto": 685213499,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 27,
+        "nombre": "Plataforma de Comercio Electrónico",
+        "descripcion": "Desarrollo de una plataforma avanzada de e-commerce",
+        "fecha_inicio": "18-08-2023",
+        "fecha_fin": "25-03-2024",
+        "presupuesto": 785613490,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 30,
+        "nombre": "Investigación Espacial",
+        "descripcion": "Proyectos de investigación en tecnología espacial",
+        "fecha_inicio": "11-07-2023",
+        "fecha_fin": "30-12-2024",
+        "presupuesto": 927310856,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 33,
+        "nombre": "Sistema de Gestión Hospitalaria",
+        "descripcion": "Desarrollo de un sistema para la gestión de hospitales",
+        "fecha_inicio": "20-09-2023",
+        "fecha_fin": "13-02-2024",
+        "presupuesto": 652340812,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 35,
+        "nombre": "Aplicación de Transporte",
+        "descripcion": "Desarrollo de una app para la gestión de transporte público",
+        "fecha_inicio": "13-04-2023",
+        "fecha_fin": "25-09-2023",
+        "presupuesto": 785203476,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 38,
+        "nombre": "Red de Comunicaciones Satelitales",
+        "descripcion": "Despliegue de una red de comunicaciones vía satélite",
+        "fecha_inicio": "23-05-2023",
+        "fecha_fin": "18-11-2023",
+        "presupuesto": 912140785,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 40,
+        "nombre": "Red de Suministro de Gas",
+        "descripcion": "Mejora y ampliación de la infraestructura de gas",
+        "fecha_inicio": "18-01-2023",
+        "fecha_fin": "12-07-2023",
+        "presupuesto": 768402314,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 41,
+        "nombre": "Sistema de Gestión de Calidad",
+        "descripcion": "Desarrollo de un sistema para la gestión de calidad en empresas",
+        "fecha_inicio": "09-02-2023",
+        "fecha_fin": "03-10-2023",
+        "presupuesto": 814590327,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 44,
+        "nombre": "Plataforma de Gestión Ambiental",
+        "descripcion": "Desarrollo de una plataforma para la gestión ambiental",
+        "fecha_inicio": "10-06-2023",
+        "fecha_fin": "29-01-2024",
+        "presupuesto": 642513789,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 48,
+        "nombre": "Red de Servicios Públicos",
+        "descripcion": "Mejora y ampliación de la infraestructura de servicios públicos",
+        "fecha_inicio": "24-08-2023",
+        "fecha_fin": "11-03-2024",
+        "presupuesto": 901324750,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 52,
+        "nombre": "Red de Energía Solar",
+        "descripcion": "Desarrollo y despliegue de infraestructura de energía solar",
+        "fecha_inicio": "14-04-2023",
+        "fecha_fin": "03-11-2023",
+        "presupuesto": 835409218,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 55,
+        "nombre": "Sistema de Gestión de Proyectos",
+        "descripcion": "Implementación de un sistema avanzado de gestión de proyectos",
+        "fecha_inicio": "07-02-2023",
+        "fecha_fin": "03-10-2023",
+        "presupuesto": 714520893,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 59,
+        "nombre": "Sistema de Gestión de Recursos Humanos",
+        "descripcion": "Desarrollo de un sistema avanzado de gestión de recursos humanos",
+        "fecha_inicio": "17-03-2023",
+        "fecha_fin": "09-10-2023",
+        "presupuesto": 751324089,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 61,
+        "nombre": "Red de Transporte Aéreo",
+        "descripcion": "Mejora y ampliación de la infraestructura de transporte aéreo",
+        "fecha_inicio": "25-07-2023",
+        "fecha_fin": "17-02-2024",
+        "presupuesto": 915203678,
+        "estado": "Finalizado"
+    },
+    {
+        "id": 63,
+        "nombre": "Plataforma de Gestión de Recursos Naturales",
+        "descripcion": "Desarrollo de una plataforma para la gestión de recursos naturales",
+        "fecha_inicio": "18-08-2023",
+        "fecha_fin": "10-05-2024",
+        "presupuesto": 823410987,
+        "estado": "Finalizado"
+    }
+]

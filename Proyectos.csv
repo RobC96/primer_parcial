@@ -1,0 +1,66 @@
+id,nombre,descripcion,fecha_inicio,fecha_fin,presupuesto,estado
+1,Plataforma de Gestión Empresarial,Sistema de gestión de recursos empresariales para mejorar la eficiencia operativa,13-10-2023,17-04-2025,42931805,Cancelado
+2,Sistema de Planificación de Recursos,Desarrollo de un sistema avanzado de planificación de recursos empresariales,17-07-2023,18-05-2025,642055083,Activo
+3,Sistema de Información Epidemiológica,Plataforma para el seguimiento y análisis de datos epidemiológicos,14-06-2023,02-02-2024,850312588,Finalizado
+4,Red de Transporte Público,Mejora y ampliación de la infraestructura de transporte público,30-03-2023,24-07-2023,937383174,Cancelado
+5,Royal Guard Tales,La mejor obra de ficción jamas creada.,06-06-2021,03-02-2030,149912234,Finalizado
+6,Laboratorio de Microbiología,Investigación y desarrollo en microbiología aplicada,13-07-2023,07-10-2025,325746996,Activo
+7,Planificación de Sucesión,Desarrollo de un sistema para la planificación de la sucesión en empresas,01-01-2023,20-05-2023,231786436,Activo
+8,Sistema de Gestión de Documentos,Desarrollo de un sistema para la gestión y archivo de documentos,06-09-2023,19-05-2023,65296214,Finalizado
+9,Investigación de Trastornos del Sueño,Estudio y tratamiento de diversos trastornos del sueño,23-05-2023,03-08-2023,555060646,Cancelado
+10,Sistema de Incendios Extremo,Desarrollo de un sistema avanzado de prevención y control de incendios,14-02-2023,03-04-2023,240045465,Activo
+11,Innovación en Energía,Desarrollo de tecnologías limpias y renovables,20-06-2023,10-11-2024,934515444,Cancelado
+12,Sistema de Gestión Financiera,Implementación de un sistema financiero avanzado,18-08-2023,09-07-2024,764423509,Finalizado
+13,Red de Agua Potable,Mejora en la distribución de agua potable,12-03-2023,01-06-2023,618347280,Cancelado
+14,Sistema de Educación en Línea,Desarrollo de una plataforma educativa digital,25-07-2023,14-05-2024,473850937,Activo
+15,Automatización Industrial,Implementación de sistemas de automatización en fábricas,19-05-2023,30-04-2024,982173102,Finalizado
+16,Control de Calidad,Desarrollo de un sistema avanzado de control de calidad,28-04-2023,22-02-2024,553601895,Activo
+17,Investigación Biomédica,Estudios y desarrollo en el campo biomédico,11-11-2023,09-08-2025,741120834,Finalizado
+18,Telecomunicaciones 5G,Despliegue de infraestructura 5G,23-06-2023,15-11-2024,615723590,Activo
+19,Seguridad Cibernética,Desarrollo de sistemas avanzados de seguridad informática,07-01-2023,22-10-2023,839417534,Finalizado
+20,Aplicación de Salud,Desarrollo de una app para seguimiento de la salud,14-04-2023,29-09-2023,769810227,Cancelado
+21,Transporte Sustentable,Desarrollo de un sistema de transporte ecológico,03-07-2023,17-12-2024,528900751,Finalizado
+22,Investigación en IA,Estudios avanzados en inteligencia artificial,30-01-2023,05-10-2023,942130543,Activo
+23,Desarrollo Urbano Sostenible,Proyectos de urbanismo sostenible,22-03-2023,12-08-2023,815347289,Cancelado
+24,Red de Internet Rural,Implementación de internet en zonas rurales,10-02-2023,21-06-2023,685213499,Finalizado
+25,Monitorización Ambiental,Desarrollo de sistemas para monitorizar el medio ambiente,07-09-2023,05-01-2024,595214707,Activo
+26,Almacenamiento de Energía,Investigación en tecnologías de almacenamiento energético,12-04-2023,08-11-2023,962145712,Cancelado
+27,Plataforma de Comercio Electrónico,Desarrollo de una plataforma avanzada de e-commerce,18-08-2023,25-03-2024,785613490,Finalizado
+28,Centro de Datos,Construcción y puesta en marcha de un centro de datos,20-06-2023,10-02-2024,839412670,Cancelado
+29,Red de Energía Eléctrica,Mejora de la infraestructura eléctrica,15-03-2023,02-09-2023,512347980,Activo
+30,Investigación Espacial,Proyectos de investigación en tecnología espacial,11-07-2023,30-12-2024,927310856,Finalizado
+31,Sistema de Control de Inventarios,Implementación de un sistema avanzado de gestión de inventarios,09-05-2023,28-11-2023,714609234,Cancelado
+32,Desarrollo Agroindustrial,Investigación y desarrollo en el sector agroindustrial,12-02-2023,03-08-2023,812940671,Activo
+33,Sistema de Gestión Hospitalaria,Desarrollo de un sistema para la gestión de hospitales,20-09-2023,13-02-2024,652340812,Finalizado
+34,Programa de Reciclaje,Desarrollo de un programa integral de reciclaje,22-11-2023,15-07-2024,533184908,Activo
+35,Aplicación de Transporte,Desarrollo de una app para la gestión de transporte público,13-04-2023,25-09-2023,785203476,Finalizado
+36,Sistema de Gestión Energética,Desarrollo de un sistema para la gestión eficiente de energía,18-08-2023,09-05-2024,693520861,Cancelado
+37,Investigación en Genética,Proyectos de investigación genética avanzada,14-03-2023,25-12-2023,819437012,Activo
+38,Red de Comunicaciones Satelitales,Despliegue de una red de comunicaciones vía satélite,23-05-2023,18-11-2023,912140785,Finalizado
+39,Centro de Innovación Tecnológica,Construcción y puesta en marcha de un centro de innovación tecnológica,11-06-2023,01-02-2024,843176509,Cancelado
+40,Red de Suministro de Gas,Mejora y ampliación de la infraestructura de gas,18-01-2023,12-07-2023,768402314,Finalizado
+41,Sistema de Gestión de Calidad,Desarrollo de un sistema para la gestión de calidad en empresas,09-02-2023,03-10-2023,814590327,Finalizado
+42,Innovación en Transporte,Desarrollo de tecnologías avanzadas para el transporte,19-04-2023,28-11-2023,723418605,Cancelado
+43,Red de Transporte Ferroviario,Mejora y ampliación de la infraestructura ferroviaria,25-03-2023,19-09-2023,812340176,Activo
+44,Plataforma de Gestión Ambiental,Desarrollo de una plataforma para la gestión ambiental,10-06-2023,29-01-2024,642513789,Finalizado
+45,Investigación en Nanotecnología,Proyectos de investigación en nanotecnología,14-07-2023,09-04-2024,873410236,Cancelado
+46,Sistema de Gestión de Riesgos,Implementación de un sistema avanzado de gestión de riesgos,11-05-2023,01-12-2023,761203984,Activo
+47,Desarrollo de Software Educativo,Desarrollo de software especializado para la educación,17-02-2023,07-09-2023,543671289,Cancelado
+48,Red de Servicios Públicos,Mejora y ampliación de la infraestructura de servicios públicos,24-08-2023,11-03-2024,901324750,Finalizado
+49,Plataforma de Comercio Justo,Desarrollo de una plataforma para el comercio justo,19-03-2023,09-11-2023,613270984,Activo
+50,Centro de Investigación Climática,Construcción y puesta en marcha de un centro de investigación climática,12-05-2023,05-12-2023,784312609,Cancelado
+51,Sistema de Gestión de Transporte,Desarrollo de un sistema avanzado de gestión de transporte,09-01-2023,19-09-2023,693180571,Activo
+52,Red de Energía Solar,Desarrollo y despliegue de infraestructura de energía solar,14-04-2023,03-11-2023,835409218,Finalizado
+53,Investigación en Biotecnología,Proyectos de investigación en biotecnología avanzada,11-06-2023,20-03-2024,982134750,Cancelado
+54,Plataforma de Gestión Cultural,Desarrollo de una plataforma para la gestión cultural,23-03-2023,17-09-2023,743612498,Activo
+55,Sistema de Gestión de Proyectos,Implementación de un sistema avanzado de gestión de proyectos,07-02-2023,03-10-2023,714520893,Finalizado
+56,Innovación en Salud,Desarrollo de tecnologías avanzadas para la salud,15-05-2023,25-11-2023,912487036,Activo
+57,Centro de Investigación en Energía,Construcción y puesta en marcha de un centro de investigación en energía,19-08-2023,12-05-2024,941203847,Cancelado
+58,Red de Transporte Marítimo,Mejora y ampliación de la infraestructura de transporte marítimo,11-04-2023,02-11-2023,683124509,Activo
+59,Sistema de Gestión de Recursos Humanos,Desarrollo de un sistema avanzado de gestión de recursos humanos,17-03-2023,09-10-2023,751324089,Finalizado
+60,Investigación en Medicina,Proyectos de investigación en medicina avanzada,20-05-2023,07-12-2023,842310765,Cancelado
+61,Red de Transporte Aéreo,Mejora y ampliación de la infraestructura de transporte aéreo,25-07-2023,17-02-2024,915203678,Finalizado
+62,Desarrollo de Software Financiero,Desarrollo de software especializado para el sector financiero,13-04-2023,01-12-2023,734612389,Cancelado
+63,Plataforma de Gestión de Recursos Naturales,Desarrollo de una plataforma para la gestión de recursos naturales,18-08-2023,10-05-2024,823410987,Finalizado
+64,Innovación en Agricultura,Desarrollo de tecnologías avanzadas para la agricultura,10-05-2023,28-11-2023,942517806,Activo
+65,Red de Energía Eólica,Desarrollo y despliegue de infraestructura de energía eólica,15-06-2023,09-03-2024,953410765,Cancelado
