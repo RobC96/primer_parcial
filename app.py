@@ -31,10 +31,7 @@ def proyectos_app(proyectos: list[dict]) -> None:
 
         match opcion:
             case 1:
-                if bandera:
-                    agregar_proyecto_memoria(proyectos)
-                else:
-                    imprimir_mensaje('Se alcanzó el límite de proyectos activos', 'Error')
+                agregar_proyecto_memoria(proyectos, bandera)
             case 2:
                 modificar_proyecto(proyectos, bandera)
             case 3:
@@ -50,10 +47,7 @@ def proyectos_app(proyectos: list[dict]) -> None:
             case 8:
                 ordenar_proyectos(proyectos)
             case 9:
-                if bandera:
-                    retomar_proyecto(proyectos)
-                else:
-                    imprimir_mensaje('Se alcanzó el límite de proyectos activos', 'Error')
+                retomar_proyecto(proyectos, bandera)
             case 10:
                 proyectos_de_verano_menor_presupuesto(proyectos)
             case 11:

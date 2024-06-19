@@ -313,12 +313,15 @@ def agregar_proyecto () -> dict:
 
 
 
-def agregar_proyecto_memoria (proyectos: list[dict]):
+def agregar_proyecto_memoria (proyectos: list[dict], bandera: bool):
     '''
     Esta función crea un nuevo proyecto y lo carga en la lista trabajada en memoria
     '''
-    nuevo_proyecto = agregar_proyecto()
-    proyectos.append(nuevo_proyecto)
+    if bandera:
+        nuevo_proyecto = agregar_proyecto()
+        proyectos.append(nuevo_proyecto)
+    else:
+        imprimir_mensaje('Ha superadl el límite de proyectos activos', 'Error')
 
 
 
@@ -639,8 +642,13 @@ def quick_sort_asc(proyectos: list[dict], key: str) -> list:
     for proyecto in proyectos:
         if proyecto[key] > pivot[key]:
             mas_grandes.append(proyecto)
-        else:
+        elif proyecto[key] < pivot[key]:
             mas_chicos.append(proyecto)
+        else:
+            if proyecto['id'] > pivot['id']:
+                mas_grandes.append(proyecto)
+            else:
+                mas_chicos.append(proyecto)
 
     return quick_sort_asc(mas_chicos, key) + [pivot] + quick_sort_asc(mas_grandes, key)
 
@@ -658,8 +666,13 @@ def quick_sort_desc(proyectos: list[dict], key: str) -> list:
     for proyecto in proyectos:
         if proyecto[key] > pivot[key]:
             mas_grandes.append(proyecto)
-        else:
+        elif proyecto[key] < pivot[key]:
             mas_chicos.append(proyecto)
+        else:
+            if proyecto['id'] > pivot['id']:
+                mas_chicos.append(proyecto)
+            else:
+                mas_grandes.append(proyecto)
 
     return quick_sort_desc(mas_grandes, key) + [pivot] + quick_sort_desc(mas_chicos, key)
 
@@ -740,36 +753,41 @@ def normalizar_fechas_a_strftime(proyectos: list[dict]):
 
 
 
-def retomar_proyecto(proyectos: list[dict]):
+def retomar_proyecto(proyectos: list[dict], bandera: bool):
     '''
     Esta función filtra los proyectos cancelados y vuelve a activo el que el usuario decida
     '''
-    proyectos_cancelados = []
+    if bandera:
 
-    for proyecto in proyectos:
-        if proyecto['estado'] == 'Cancelado':
-            proyectos_cancelados.append(proyecto)
+        proyectos_cancelados = []
 
-    normalizar_fechas_a_strftime(proyectos)
-    
-    if not proyectos_cancelados:
-        imprimir_mensaje('No se han encontrado proyectos cancelados', 'Info')
-    else:
+        for proyecto in proyectos:
+            if proyecto['estado'] == 'Cancelado':
+                proyectos_cancelados.append(proyecto)
 
-        for proyecto in proyectos_cancelados:
-            mostrar_proyecto(proyecto)
-        imprimir_mensaje('Se han encontrado esos proyectos cancelados, ingrese el id del proyecto a retomar', 'Success')
-        id_str = input("id: ")
-        if id_str.isdigit():
-            id = int(id_str)
-            proyecto_a_retomar = encontrar_proyecto(proyectos_cancelados, id)
-            if proyecto_a_retomar:
-                proyecto_a_retomar['estado'] = 'Activo'
-                imprimir_mensaje('El proyecto se actualizó a activo', 'Success')
+        normalizar_fechas_a_strftime(proyectos)
+        
+        if not proyectos_cancelados:
+            imprimir_mensaje('No se han encontrado proyectos cancelados', 'Info')
         else:
-            imprimir_mensaje('El id no es válido', 'Error')
 
-    normalizar_fechas_a_strptime(proyectos)
+            for proyecto in proyectos_cancelados:
+                mostrar_proyecto(proyecto)
+            imprimir_mensaje('Se han encontrado esos proyectos cancelados, ingrese el id del proyecto a retomar', 'Success')
+            id_str = input("id: ")
+            if id_str.isdigit():
+                id = int(id_str)
+                proyecto_a_retomar = encontrar_proyecto(proyectos_cancelados, id)
+                if proyecto_a_retomar:
+                    proyecto_a_retomar['estado'] = 'Activo'
+                    imprimir_mensaje('El proyecto se actualizó a activo', 'Success')
+            else:
+                imprimir_mensaje('El id no es válido', 'Error')
+
+        normalizar_fechas_a_strptime(proyectos)
+
+    else:
+        imprimir_mensaje('Ha alcanzado el límite de proyectos activos', 'Error')
     
     return   
 
